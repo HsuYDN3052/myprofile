@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="My profile" />
+        <meta property="og:description" content="Welcome to my profile!" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>My profile collection</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {font-family: "Pretendard",serif;}
+            body{background-color:#F2AE47}
+            .profile{
+                width: 100px;
+                height: 100px;
+                background-color:white;
+                border-radius:100%;
+                border:2px solid white;
+                background-image: url("HsuYadanarlogo.png");
+                background-position: center;
+                background-size: cover;}
+            .welcome{color:white;
+                margin-top: 30px;
+                margin-bottom: 10px;
+                font-size: 20px;
+
+            }
+            .welcome1{color:white;
+                margin-top: 0px;
+                margin-bottom: 10px;
+                font-size: 20px;
+
+            }
+            .me{color:white;
+                font-size: 15px;
+                font-weight: bold;
+                margin-top:0;
+                margin-bottom:30px;
+            }
+            .wrap{
+                width:500px;
+                margin:30px auto 0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height:30px;
+                font-size: 14px;
+                font-weight: bold;
+                color:#F2AE47;
+                background-color: white;
+                border-radius: 8px;
+                margin-top:5px;
+                margin-bottom:5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                box-shadow: 3px 3px 5px 0px black;
+            }
+            .wrap > a:hover{
+                background-color: #d2d2d2;
+                font-size: 15px;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="welcome">Hello! 안녕하세요!</h1>
+            <h1 class="welcome1"> Welcome to my profile. 저의 프로파일에세 환영합니다.</h1>
+            <p class="me">I am Hsu Yadanar. 저는 노노입나다.</p>
+            <a target="_blank" href="https://www.instagram.com/noen310">My Instagram</a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100010909965762">My Facebook</a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCtp0SyyHl2uiN3lSv3T6HYg">My Youtube Channel</a>
+            <a target="_blank" href="https://www.linkedin.com/in/hsu-yadanar-248580232/">My LinkedIn</a>
+        </div>
+        
+    </body>
+</html>
